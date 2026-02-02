@@ -12,7 +12,7 @@ Assuming you use straight.el:
   :straight (neo-highlight
              :type git
              :host github
-             :repo "yourname/neo-highlight")
+             :repo "https://github.com/if001/neo-highlight.git")
   :after neotree
   :config
   (neo-highlight-mode 1))
