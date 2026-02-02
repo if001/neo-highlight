@@ -16,10 +16,18 @@ Assuming you use straight.el:
   :after neotree
   :config
   (neo-highlight-mode 1))
+```
 
 ## Customize face
+
+```elisp
 (custom-set-faces
  '(neo-highlight-current-file-face ((t (:inherit hl-line :underline t)))))
+```
+
 
 ## Disable buffer-change updates
+
+```elisp
 (setq neo-highlight-update-on-buffer-change nil)
+```
